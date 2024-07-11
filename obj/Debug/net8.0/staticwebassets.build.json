@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Lbb1FwmLkm2LfSEr6889jnFuII3PqJSObOO06+Ulql0=",
+  "Source": "SpeakerManagerApi",
+  "BasePath": "_content/SpeakerManagerApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
