@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpeakerManagerApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bcab893b66916f7cd48ea13f0ccd40f3abdeb5a8")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpeakerManagerApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpeakerManagerApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

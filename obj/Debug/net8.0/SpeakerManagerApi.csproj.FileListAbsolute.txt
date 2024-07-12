@@ -140,3 +140,5 @@
 /Users/lesifuges/Desktop/SpeakerManagerApi/obj/Debug/net8.0/SpeakerManagerApi.pdb
 /Users/lesifuges/Desktop/SpeakerManagerApi/obj/Debug/net8.0/SpeakerManagerApi.genruntimeconfig.cache
 /Users/lesifuges/Desktop/SpeakerManagerApi/obj/Debug/net8.0/ref/SpeakerManagerApi.dll
+/Users/lesifuges/Desktop/SpeakerManagerApi/obj/Debug/net8.0/SpeakerManagerApi.sourcelink.json
+/Users/lesifuges/Desktop/SpeakerManagerApi/bin/Debug/net8.0/AutoMapper.dll

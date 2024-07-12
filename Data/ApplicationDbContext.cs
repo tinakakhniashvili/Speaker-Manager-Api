@@ -37,6 +37,7 @@ namespace SpeakerManagerApi.Data
             modelBuilder.Entity<Speaker>(entity =>
             {
                 entity.HasKey(e => e.Id);
+                entity.Property(e => e.Id).ValueGeneratedOnAdd();  // Ensure Id is generated on add
                 entity.Property(e => e.FullName).IsRequired();
                 entity.Property(e => e.Role).IsRequired();
                 entity.Property(e => e.ProfilePicture).IsRequired();
@@ -45,6 +46,7 @@ namespace SpeakerManagerApi.Data
             modelBuilder.Entity<UserText>(entity =>
             {
                 entity.HasKey(e => e.Id);
+                entity.Property(e => e.Id).ValueGeneratedOnAdd();
                 entity.Property(e => e.Text).IsRequired();
                 entity.Property(e => e.IsOnTop).IsRequired();
             });

@@ -19,11 +19,15 @@ namespace SpeakerManagerApi.Controllers
         }
 
         // GET: api/Speakers
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<Speaker>>> GetSpeakers()
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Speaker>> GetSpeaker(int id)
         {
-            var speakers = await _context.Speakers.ToListAsync();
-            return Ok(speakers);
+            var speaker = await _context.Speakers.FindAsync(id);
+            if (speaker == null)
+            {
+                return NotFound();
+            }
+            return Ok(speaker);
         }
 
         // POST: api/Speakers
@@ -33,7 +37,7 @@ namespace SpeakerManagerApi.Controllers
             _context.Speakers.Add(speaker);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetSpeakers), new { id = speaker.Id }, speaker);
+            return CreatedAtAction(nameof(GetSpeaker), new { id = speaker.Id }, speaker);
         }
     }
 }
